@@ -2,7 +2,7 @@
 
 **DOOMFire** is a fire effect inspired by the classic DOOM game, implemented in Go. This project showcases the power and simplicity of the Go language combined with the [Ebitengine](https://ebitengine.org), an easy-to-use gaming library with a vibrant community.
 
-![DOOMFire](https://raw.githubusercontent.com/crgimenes/doomfire/master/doomfire.png)
+![DOOMFire](doomfire.png)
 
 ## How to Run
 
