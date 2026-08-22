@@ -1,6 +1,6 @@
 module doomfire
 
-go 1.26.5
+go 1.27
 
 require github.com/hajimehoshi/ebiten/v2 v2.9.9
 

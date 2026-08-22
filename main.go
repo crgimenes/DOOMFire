@@ -82,10 +82,7 @@ func (f *fire) updateFireIntensityPerPixel(currentPixelIndex int) {
 	}
 
 	d := rand.IntN(2)
-	newI := int(f.indices[below]) - d
-	if newI < 0 {
-		newI = 0
-	}
+	newI := max(int(f.indices[below])-d, 0)
 
 	if currentPixelIndex-d < 0 {
 		return
